@@ -1,4 +1,4 @@
-## Add your env secretes.
+## Add your env secretes
 ```js
 .env_example
 PRIVATE_STRIPE_SECRETE_KEY = your_PRIVATE_STRIPE_SECRETE_KEY
