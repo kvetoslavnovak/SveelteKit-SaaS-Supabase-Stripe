@@ -1,2 +1,16 @@
-Add your env secretes.
+## Add your env secretes.
+.env_example
+PRIVATE_STRIPE_SECRETE_KEY = your_PRIVATE_STRIPE_SECRETE_KEY
+PRIVATE_STRIPE_API_SVELTEKIT_ENPOINT_KEY = your_PRIVATE_STRIPE_API_SVELTEKIT_ENPOINT_KEY
+PRIVATE_RPC_DELETE_USER = yoyour_PRIVATE_STRIPE_API_SVELTEKIT_ENPOINT_KEY
+PRIVATE_RPC_STRIPE_CUSTOMER_TO_USER_PROFILE = youyour_PRIVATE_STRIPE_API_SVELTEKIT_ENPOINT_KEY
+PRIVATE_STRIPE_API_STRIPE_CUSTOMER_WEBHOOK_SIGNING_SECRET = yoyour_PRIVATE_STRIPE_API_SVELTEKIT_ENPOINT_KEY
+
+
+.env.local_example
+PUBLIC_SUPABASE_URL = your_PUBLIC_SUPABASE_URL
+PUBLIC_SUPABASE_ANON_KEY = your_PUBLIC_SUPABASE_URL
+PUBLIC_STRIPE_PUBLISHABLE_KEY = your_PUBLIC_SUPABASE_URL
+
+## Set up Supabase and Stripe
 To set up Supabase and Stripe }especially profile table, webhooks etc.) you may follow this tutorial made by Supabase lector: https://egghead.io/lessons/next-js-charge-customer-for-stripe-subscription-in-next-js
