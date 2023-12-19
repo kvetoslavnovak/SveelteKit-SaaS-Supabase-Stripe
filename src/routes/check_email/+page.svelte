@@ -1,0 +1,1 @@
+<p>Check your email to confirm.</p>

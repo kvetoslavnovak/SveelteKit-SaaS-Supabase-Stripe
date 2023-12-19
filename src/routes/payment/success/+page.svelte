@@ -1,0 +1,1 @@
+<p>Payment successfull! Enjoy your Premium plan.</p>
