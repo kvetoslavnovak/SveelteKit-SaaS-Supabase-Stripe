@@ -44,7 +44,7 @@ export const actions = {
    
        const stripe = await initStripe(PRIVATE_STRIPE_SECRETE_KEY);
       // let lang = event.locals.lang // using user UI lang for Stripe checkout or "en"
-      let lang = "cs"
+      let lang = "en"
        const session = await stripe.checkout.sessions.create(
          {
            customer: user_profile.stripe_customer, 
