@@ -49,7 +49,7 @@ export const actions = {
          {
           customer: user_profile.stripe_customer, 
           locale: lang || "en",
-          return_url: "http://localhost:5173/subscription_details"
+          return_url: "https://supabase-ssr-auth.vercel.app/subscription_details"
          }
        )
 if (session) {
