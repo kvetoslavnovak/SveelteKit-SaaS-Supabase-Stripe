@@ -62,8 +62,8 @@ export const actions = {
             ]
          },
          locale: lang || "en",
-           success_url: "http://localhost:5173/payment/success",
-           cancel_url: "http://localhost:5173/payment/canceled",
+           success_url: "https://supabase-ssr-auth.vercel.app/payment/success",
+           cancel_url: "https://supabase-ssr-auth.vercel.app/payment/canceled",
          }
        )
 if (session) {
